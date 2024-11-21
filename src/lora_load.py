@@ -1,3 +1,7 @@
+"""
+Ce script n'a d'autre utilité que de montrer comment charger une config LoRA
+"""
+
 from transformers import AutoModelForCausalLM
 from peft import LoraConfig, get_peft_model, PeftConfig
 import json
